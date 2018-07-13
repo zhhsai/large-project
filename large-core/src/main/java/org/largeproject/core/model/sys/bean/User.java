@@ -1,6 +1,7 @@
-package org.largeproject.core.model;
+package org.largeproject.core.model.sys.bean;
 
 import lombok.Data;
+import org.largeproject.core.model.base.BaseEntity;
 import tk.mybatis.mapper.annotation.KeySql;
 
 import javax.persistence.Id;
@@ -12,7 +13,7 @@ import javax.persistence.Table;
  */
 @Table
 @Data
-public class User extends BaseEntity{
+public class User extends BaseEntity {
     @Id
     @KeySql(useGeneratedKeys = true)
     private Long id;

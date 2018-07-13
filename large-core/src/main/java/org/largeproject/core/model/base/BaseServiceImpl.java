@@ -1,8 +1,7 @@
-package org.largeproject.core.service;
+package org.largeproject.core.model.base;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import org.largeproject.core.model.BaseEntity;
 import org.largeproject.core.unannto.MyMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;

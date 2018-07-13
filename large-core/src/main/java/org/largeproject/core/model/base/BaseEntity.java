@@ -1,4 +1,4 @@
-package org.largeproject.core.model;
+package org.largeproject.core.model.base;
 
 import java.io.Serializable;
 

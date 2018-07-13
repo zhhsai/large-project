@@ -1,7 +1,7 @@
-package org.largeproject.core.service;
+package org.largeproject.core.model.base;
 
 import com.github.pagehelper.PageInfo;
-import org.largeproject.core.model.BaseEntity;
+import org.largeproject.core.model.base.BaseEntity;
 
 import java.util.List;
 

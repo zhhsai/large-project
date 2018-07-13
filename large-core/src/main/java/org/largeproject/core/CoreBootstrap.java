@@ -9,7 +9,7 @@ import tk.mybatis.spring.annotation.MapperScan;
  * Date: 2018/7/11 19:32
  */
 @SpringBootApplication
-@MapperScan("org.largeproject.core.mapper")
+@MapperScan("org.largeproject.core.model.*.mapper")
 public class CoreBootstrap {
     public static void main(String[] args) {
         SpringApplication.run(CoreBootstrap.class, args);
