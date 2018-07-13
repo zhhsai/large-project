@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/largeproject
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    sql-script-encoding: UTF-8
+
+mybatis:
+  type-aliases-package: org.largeproject.core.model
+  mapper-locations: classpath:mapper/**/*.xml
+
+
+mapper:
+  mappers:
+    - org.largeproject.core.unannto.MyMapper
+  not-empty: false
+  identity: MYSQL
+
+server:
+  port: 8023

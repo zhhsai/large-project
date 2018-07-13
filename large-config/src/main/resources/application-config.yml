@@ -1,0 +1,17 @@
+spring:
+    application:
+        name: large-config
+    cloud:
+      config:
+        server:
+          git:
+            uri: https://github.com/s***w*/myspringcloudconfig
+            search-paths: myconfigpath
+            username:
+            password:
+        label: master
+
+server:
+    port: 7001 #启动端口
+
+
